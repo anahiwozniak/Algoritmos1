@@ -49,6 +49,6 @@ pertenece :: Int -> [Int] -> Bool
 pertenece _ [] = False 
 pertenece n (x:xs) = n == x || (pertenece n xs)
 
---Ejercicio 4
+
 
 
